@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// 开闭原则:一个软件实体如类、模块和函数应该对扩展开放，对修改关闭。
+// 简单的说就是在修改需求的时候，应该尽量通过扩展来实现变化，而不是通过修改已有代码来实现变化。
+
 // AbstractBanker 实现一个抽象的银行业务员
 type AbstractBanker interface {
 	DoSomething()
