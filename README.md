@@ -1,2 +1,2 @@
 # golang-design-patterns
-golang 设计模式
+## golang 设计模式
